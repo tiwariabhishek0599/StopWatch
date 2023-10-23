@@ -12,7 +12,7 @@ let timer=null;
 start.addEventListener("click",function(){
    
     if(timer!==null){
-        clearInterval(timerid)
+        clearInterval(timer)
     }
     timer=setInterval(startTimer,100);
 });
